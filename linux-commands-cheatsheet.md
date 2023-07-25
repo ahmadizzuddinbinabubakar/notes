@@ -59,3 +59,50 @@
 
 20. ssh: Securely log into a remote server.
 	- ssh username@hostname
+21. sudo: Perform tasks that require administrative or root permissions.
+    	- sudo apt-get update
+22. touch: Create an empty file or generate and modify a timestamp.
+	- touch /home/username/Documents/Web.html
+23. locate: Find a file.
+	- locate -i school*note
+24. find: Search for files within a specific directory and perform subsequent operations.
+    	- find /home -name notes.txt
+25. du: Check how much space a file or a directory takes up.
+	- du /home/user/Documents
+26. head: View the first ten lines of a text.
+	- head note.txt
+27. tail: Displays the last ten lines of a file.
+	- tail -n colors.txt
+28. diff: Compares two contents of a file line by line.
+    	- diff note.txt note_update.txt
+29. jobs: Display all the running processes along with their statuses.
+30. ping: Checking whether a network or a server is reachable.
+	- ping google.com
+31. uname: Print detailed information about your Linux system and hardware.
+32. history: List up to 500 previously executed commands.
+33. man: Provides a user manual of any commands or utilities.
+	- man ls
+34. echo: Displays a line of text or string using the standard output.
+	- echo “Common Linux Commands”
+35. zip: Compress your files into a ZIP file.
+	- zip archive.zip note.txt
+36. unzip: Extracts the zipped files from an archive.
+    	- unzip archive.zip
+37. hostname: Get the system’s hostname.
+	- hostname -i
+38. useradd: Create a new account.
+	- useradd Bocchi
+39. passwd: Add a password.
+	- passwd 123456789
+40. userdel: Delete a user account.
+	- userdel username
+41. apt-get: Handling Advanced Package Tool (APT) libraries in Linux.
+42. nano: Text editor to edit and manage files.
+	- nano linux-commands-cheatsheet
+43. alias: Create a shortcut with the same functionality as a command, file name, or text.
+	- alias k=’kill’
+44. su: Switch user. 
+	- su azunyan
+45. htop: An interactive program that monitors system resources and server processes in real time.
+
+
