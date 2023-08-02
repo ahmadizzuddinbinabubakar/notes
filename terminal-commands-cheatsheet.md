@@ -1,4 +1,4 @@
-# Common Linux Commands
+# Common Terminal Commands
 
 1. ls: List files and directories in the current directory.
 
@@ -104,5 +104,19 @@
 44. su: Switch user. 
 	- su azunyan
 45. htop: An interactive program that monitors system resources and server processes in real time.
-
+46. awk: A scripting language used for manipulating data and generating reports. The awk command programming language requires no compiling and allows the user to use variables, numeric functions, string functions, and logical operators. 
+	- awk '{print $1,$2}' kessoku_band.txt  	[print column 1 & 2]
+ 	- awk '{print NR,$0}' kessoku_band.txt   	[display line no]
+	- awk '{print $NF}' kessoku_band.txt  		[print last field of the file]
+47. sed: Many features for selecting lines to be modified and making changes only to the selected lines.
+	- sed  -n  "/instruments/p" sideros.txt
+48. lsof (list open files): Command returns the user processes that are actively using a file system.
+49. curl (Client URL): Enables data exchange between a device and a server through a terminal.
+	- curl example.com
+50. less: Read the contents of a text file one page (one screen) at a time.
+	- dmesg | less -p "fail"
+51. kill: Sends a signal (by default, the SIGTERM signal) to a running process. This default action normally stops processes.
+	- kill -9 4124
+52. dig (domain information groper): Performs DNS lookups and displays the answers that are returned from the queried name server(s).
+	- dig youtube.com
 
