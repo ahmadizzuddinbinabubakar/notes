@@ -13,7 +13,7 @@ SOLID:
 - Interface segregation principle - it’s better to have a lot of smaller interfaces than a few bigger ones. Clients should not be forced to implement interfaces they do not use.”
 - Dependency inversion principle - high level modules should not depend upon low level modules. Both should depend on abstractions.” Further, “abstractions should not depend on details. Details should depend upon abstractions
 
-NASA
+NASA:
 - Simple Control Flow - don't use goto, setjmp, longjmp, recursion
 - Limit All Loops - hard limit the number of iterations in all loops
 - Don't Use the Heap - use only stack memory, don't use malloc or free
@@ -24,7 +24,7 @@ NASA
 - Restrict Pointers Use - pointers should not be able to be dereferenced more than one layer at a time, also don't use function pointers
 - Be Pedantic - compile with all warnings enabled and in pedantic mode, analyze the code with multiple static code analyzers with different rulesets, also unit test the code
 
-GOOGLE
+GOOGLE:
 - tabs vs spaces - use only spaces and indent two spaces at a time. use spaces for indentation. do not use tabs in your code
 - type deduction - use type deduction only if it makes the code clearer to readers who aren't familiar with the project or if it makes the code safer. do not use it to merely avoid the inconvenience of writing an explicit type
 -  ownership and smart pointers - limiting the use of dynamically allocated memory to the lowest point possible, using it only in the class that it was allocated by. if two classes need to use the data, use a Smart pointer to explicitly pass ownership of the data from one class to another
