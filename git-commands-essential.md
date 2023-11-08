@@ -1,4 +1,4 @@
-## Essential Git Commands
+# Essential Git Commands
 
 **1. Adding and Committing Files Together**<br>
 git commit -am "commitMessage"<br>
