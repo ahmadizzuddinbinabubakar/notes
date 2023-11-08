@@ -1,4 +1,4 @@
-# CODING BEST PRACTICE / GUIDE
+# Coding Best Practice / Guide
 
 KISS - Keep It Simple, Stupid
 
