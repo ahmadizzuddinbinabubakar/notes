@@ -1,40 +1,40 @@
 ## Essential Git Commands
 
-**Adding and Committing Files Together**
-git commit -am "commitMessage"
+**1. Adding and Committing Files Together**<br>
+git commit -am "commitMessage"<br>
 <br>
-**Creating and Switching to a Git Branch**
-git checkout -b branchName
+**2. Creating and Switching to a Git Branch**<br>
+git checkout -b branchName<br>
 <br>
-**Delete a Git Branch**
-git branch -d branchName (Safe deletion)
-git branch -D branchName (Forceful deletion)
+**3. Delete a Git Branch**<br>
+git branch -d branchName (Safe deletion)<br>
+git branch -D branchName (Forceful deletion)<br>
 <br>
-**Renaming a Git Branch**
-git branch -m oldBranch newBranch
-git branch -m newBranchName
+**4. Renaming a Git Branch**<br>
+git branch -m oldBranch newBranch<br>
+git branch -m newBranchName<br>
 <br>
-**Unstaging a Specific File**
-git reset filename
+**5. Unstaging a Specific File**<br>
+git reset filename<br>
 <br>
-**Discarding Changes to a Specific File**
-git checkout -- filename
+**6. Discarding Changes to a Specific File**<br>
+git checkout -- filename<br>
 <br>
-**Updating Your Last Git Commit**
-git commit --amend -m 'message'
+**7. Updating Your Last Git Commit**<br>
+git commit --amend -m 'message'<br>
 <br>
-**Stashing Changes**
-git stash
+**8. Stashing Changes**<br>
+git stash<br>
 <br>
-**Restore Latest Stashed Changes**
-git stash apply
-git stash pop
+**9. Restore Latest Stashed Changes**<br>
+git stash apply<br>
+git stash pop<br>
 <br>
-**Reverting Git Commits**
-git revert commitHash
+**10. Reverting Git Commits**<br>
+git revert commitHash<br>
 <br>
-**Resetting Git Commits**
-git reset --soft HEAD^
-git reset --mixed HEAD^
-git reset --hard HEAD^
+**11. Resetting Git Commits**<br>
+git reset --soft HEAD^<br>
+git reset --mixed HEAD^<br>
+git reset --hard HEAD^<br>
 <br>
