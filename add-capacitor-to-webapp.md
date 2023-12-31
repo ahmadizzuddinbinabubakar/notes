@@ -11,7 +11,7 @@ npx cap init
 npm install @capacitor/core @capacitor/ios @capacitor/android
 
 **4. Add the native platforms**<br>
-npx cap add ios
+npx cap add ios <br>
 npx cap add android
 <br>
 <br>
@@ -22,3 +22,7 @@ npm run static
 
 **2. Sync web code into the native platforms**<br>
 npx cap sync
+
+**3. Open in Xcode or Android Studio**<br>
+npx cap open ios  <br>
+npx cap open android
