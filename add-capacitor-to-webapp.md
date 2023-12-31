@@ -13,3 +13,12 @@ npm install @capacitor/core @capacitor/ios @capacitor/android
 **4. Add the native platforms**<br>
 npx cap add ios
 npx cap add android
+<br>
+<br>
+# BUILD AND EXPORT
+
+**1. Build project and export the static build**<br>
+npm run static
+
+**2. Sync web code into the native platforms**<br>
+npx cap sync
