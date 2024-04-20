@@ -6,6 +6,9 @@
 4. git remote add origin git@github.com:<'your-username'>/<'repository-name'>.git <br>
 5. git push -u -f origin main <br>
 
+# New branch
+1. git checkout -b <'branch-name'>
+
 # Upload Images to Github
 1. Create a new issue on GitHub.
 2. Drag an image into the comment field.
