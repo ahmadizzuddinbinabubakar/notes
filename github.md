@@ -9,6 +9,9 @@
 # New branch
 1. git checkout -b <'branch-name'>
 
+# Show current branch
+1. git rev-parse --abbrev-ref HEAD
+
 # Upload Images to Github
 1. Create a new issue on GitHub.
 2. Drag an image into the comment field.
