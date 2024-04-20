@@ -6,11 +6,10 @@
 4. git remote add origin git@github.com:<'your-username'>/<'repository-name'>.git <br>
 5. git push -u -f origin main <br>
 
-# New branch
-1. git checkout -b <'branch-name'>
-
-# Show current branch
-1. git rev-parse --abbrev-ref HEAD
+# Branch
+1. Create new branch: git checkout -b <'branch-name'>
+2. Show current branch: git rev-parse --abbrev-ref HEAD
+3. Push current branch: git push -u origin <'branch-name'>
 
 # Upload Images to Github
 1. Create a new issue on GitHub.
