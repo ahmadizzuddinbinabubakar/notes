@@ -14,6 +14,6 @@
 # Upload Images to Github
 1. Create a new issue on GitHub.
 2. Drag an image into the comment field.
-3.Wait for the upload process to finish.
+3. Wait for the upload process to finish.
 4. Copy the URL and use it in your Markdown files on GitHub.
 
