@@ -9,6 +9,9 @@
 ## Uninstall
 - rustup self uninstall
 
+## Build
+- cargo build
+
 ## Run program:
 - cargo run
 
