@@ -1,6 +1,7 @@
 # DOCKER
 ## Dockerise a repository
-1. Create a docker file <br>
+1. Create <em>.dockerignore</em> file in root folder
+2. Create <em>Dockerfile</em> in root folder <br>
 - base image <br>
   > FROM python 3.10 <br>
 - working directory <br>
@@ -14,9 +15,9 @@
   > EXPOSE 5100 <br>
 - run the app <br>
   > CMD ["python", "app.py"] <br>
-2. Build image <br>
+3. Build image <br>
   > docker build . -t this_is_a_tag
-3. After finished build, the image can be ran in Docker desktop app <br>
+4. After finished build, the image can be ran in Docker desktop app <br>
 <br>
 
 ## Deploy in Google Cloud Run
