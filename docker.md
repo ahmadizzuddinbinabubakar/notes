@@ -42,3 +42,37 @@
   - a URL for the webapp will be provided
 5. To use in a different machine
     > docker pull
+
+## Docker Compose
+1. In root folder, create docker-compose.yml
+  - version of Compose file
+    > version: `3`
+  - define all services (applications) that you want to run in one go
+    > services:  <br>
+    &emsp; app1-name: <br>
+    &emsp; &emsp; ... <br>
+    &emsp; app2-name: <br>
+    &emsp; &emsp; ... <br>
+    &emsp; app3-name: <br>
+    &emsp; &emsp; ... <br>
+  - defines the Docker image that will be the base of the container
+    > image: "postgres:9.6-alpine"
+  - similar to the image from the previous example, but instead of using already prepared Docker image, Compose needs to create one based on Dockerfile
+    > build: ./sample-app
+  - specifies the name of the outcome container
+    > container_name: sample-postgres
+  - map a port of your PC to the exposed port of the container
+    > – 8080:8080
+  - define environment variables that will be inside Docker container
+    > environment: <br>
+      – ENV_VAR_1: value1 <br>
+      – ENV_VAR_2: value2 <br>
+      – ENV_VAR_3: value3 <br>
+  - additional settings may need to be added based on the type of application
+2. Useful commands in development
+  > docker-compose up -d --force-recreate <br>
+    docker-compose down --rmi all
+3. In root folder, start all instances
+  > docker-compose up
+4. To stop all instances
+  > docker-compose down
